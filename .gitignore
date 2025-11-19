@@ -1,0 +1,24 @@
+# Ignore dataset files (large JSONL)
+demo.jsonl
+test_features.jsonl
+
+# Ignore full folder of extracted JSON features
+json extract file/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore large model weights (optional)
+*.pkl
+
+# Ignore local logs
+*.log
+
+# Ignore Windows trash
+Thumbs.db
+desktop.ini
